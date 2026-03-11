@@ -1,0 +1,14 @@
+{
+  "nvda_195_by_july": {
+    "prob": 0.40,
+    "n_particles": 1000,
+    "observations": [],
+    "description": "NVDA 在 2026-07-17 前收盘 ≥ $195"
+  },
+  "baba_150_by_april": {
+    "prob": 0.40,
+    "n_particles": 1000,
+    "observations": [],
+    "description": "BABA 在 2026-04-30 前收盘 ≥ HK$150"
+  }
+}

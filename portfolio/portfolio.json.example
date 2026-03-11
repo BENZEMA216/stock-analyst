@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "last_updated": "2026-01-01",
+    "usd_to_cnh": 7.28,
+    "hkd_to_cnh": 0.93,
+    "note": "options last_price 需要从券商 app 手动更新"
+  },
+  "positions": [
+    {
+      "id": "nvda_stock",
+      "name": "NVDA 正股",
+      "type": "stock",
+      "symbol": "NVDA",
+      "currency": "USD",
+      "quantity": 20,
+      "avg_cost": 174.85,
+      "last_price": null,
+      "stop_loss": 168,
+      "note": "AI算力核心仓"
+    },
+    {
+      "id": "baba_hk",
+      "name": "阿里巴巴 09988",
+      "type": "stock",
+      "symbol": "9988.HK",
+      "currency": "HKD",
+      "quantity": 400,
+      "avg_cost": 144.42,
+      "last_price": null,
+      "stop_loss": null,
+      "note": "港科技核心仓"
+    },
+    {
+      "id": "nvda_short_put",
+      "name": "NVDA PUT 260618-175 (卖出)",
+      "type": "short_put",
+      "symbol": "NVDA",
+      "currency": "USD",
+      "contracts": -3,
+      "strike": 175,
+      "expiry": "2026-06-18",
+      "premium_received": 13.35,
+      "last_price": null,
+      "note": "卖出看跌，收权利金"
+    },
+    {
+      "id": "nvda_call_spread",
+      "name": "NVDA 垂直价差 0717 C195/200",
+      "type": "call_spread",
+      "symbol": "NVDA",
+      "currency": "USD",
+      "contracts": 12,
+      "long_strike": 195,
+      "short_strike": 200,
+      "expiry": "2026-07-17",
+      "avg_cost": 2.10,
+      "last_price": null,
+      "note": "牛市垂直价差，看涨结构"
+    },
+    {
+      "id": "brkb_stock",
+      "name": "Berkshire Hathaway B",
+      "type": "stock",
+      "symbol": "BRK-B",
+      "currency": "USD",
+      "quantity": 10,
+      "avg_cost": 479.135,
+      "last_price": null,
+      "stop_loss": 440,
+      "note": "防御对冲仓"
+    }
+  ],
+  "trade_log": [
+    {
+      "date": "2026-01-01",
+      "action": "BUY",
+      "symbol": "NVDA",
+      "quantity": 20,
+      "price": 174.85,
+      "currency": "USD",
+      "note": "建仓"
+    }
+  ],
+  "crypto": [
+    {"name": "BTC", "value_usd": 2000, "platform": "OKX"},
+    {"name": "ETH", "value_usd": 2000, "platform": "OKX"}
+  ]
+}
